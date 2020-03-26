@@ -1,0 +1,4 @@
+	MEMORIA ROM => é soemnte uma memoria de leitura, exemplo bios
+	SOFTWARE LEGADO=> é um sistema mais antigo, ainda em operação
+	SISTEMAS EMBARCADOS=> são sistemas menores "conectados a perifericos" usados pra controlar funçoes especificas. Ex: o softawe da placa de video ou o software interno de uma impressora.
+	
