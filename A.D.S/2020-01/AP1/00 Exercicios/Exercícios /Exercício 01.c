@@ -1,39 +1,32 @@
-/******************************************************************************
 
-1. FUA que lê o número de um funcionário, seu número de horas trabalhadas e o
-valor que recebe por hora. O algoritmo deve calcular e mostrar o salário deste
-funcionário.
 
-var
-    n_funcionario: inteiro;
-    horas, valor, salario: real;
-
-Inicio
-    escreva("Numero do funcionario: ");
-    leia(n_funcionario);
-    escreva("Horas trabalhadas: ");
-    leia(horas);
-    escreva("Valor da hora: ");
-    leia(valor);
-    salario <- horas * valor;
-    escreva ("Salario do funcionario: ", salario);
-finalalgoritmo
-*******************************************************************************/
 #include <stdio.h>
 
-int main()
+int
+main ()
 {
-    int n_funcionario;
-    float horas, valor, salario;
+    int codigo1, quant1, codigo2, quant2;
+    float valor1, valor2, percentual, valor_IPI, total, total_final;
+    
+    
+  printf ("Código da peça 01: ");
+  scanf ("%i", &codigo1);
+  printf ("Quantidades das peças 01: ");
+  scanf ("%i", &quant1);
+  printf ("Valor da peça 01: ");
+  scanf ("%f",&valor1);
+  printf ("Código da peça 02: ");
+  scanf ("%i", &codigo2);
+  printf ("Quantidades das peças 02: ");
+  scanf ("%i", &quant2);
+  printf ("Valor da peça 02: ");
+  scanf ("%f",&valor2);
+  printf ("Digite o percentual de IPI: ");
+  scanf ("%f", &percentual);
+  total= quant1*valor1 + quant2*valor2;
+  valor_IPI= total*percentual/100;
+  total_final= total + valor_IPI;
+  printf("O total da compra com o IPI: \n =>R$ %.2f", total_final);
 
-    printf("Numero do funcionario: "); 
-    scanf("%i", &n_funcionario); 
-    printf("Horas trabalhadas: ");
-    scanf( "%f", &horas); 
-    printf("Valor da hora: ");
-    scanf("%f", &valor);
-    salario = horas * valor;
-    printf ("Salario do funcionario: \n=> R$ %.2f", salario);
-
-return 0;
+  return 0;
 }

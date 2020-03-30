@@ -1,0 +1,123 @@
+* {
+    margin: 0 auto;
+}
+
+body{
+    
+    background: grey;
+}
+
+.divTudo{
+font-family: arial,sans-serif;
+background-color: grey;
+}
+
+.divTudo02{
+    background-color: whitesmoke;
+    margin: 0px 250px;
+    word-spacing: 10px;
+}
+
+.divLinha{
+    clear: both;
+}
+
+.h2TituloSessao{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#divCabecalho{
+    background-color: rgba(10, 71, 10, 0.925);
+    min-height: 50px;
+    padding: 50px 50px 10px 50px;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+#h1TituloCabecalho{
+    color:yellow;
+    float: center;
+    min-width: 50px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#divClassificacao{
+    width: 100%; 
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+    float: center;
+    text-indent: 10px;
+}
+
+
+#tableClasssificacao{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+
+#h3TituloGrupo{
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+#divGoleadores{
+    width: 70%;  
+}
+
+#tableGoleadores{
+    width: 60%;
+    background-color: #ffffff;
+}
+
+#divJogos{
+    width: 70%;
+}
+
+#tableJogos{
+    width: 100% ;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#escudo{
+  max-width: 10px;
+}
+
+.circleTrue{
+    height: 15px;
+    width: 15px;
+    background-color:green;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.circleFalse{
+    height: 15px;
+    width: 15px;
+    background-color:red;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.circleNone{
+    height: 15px;
+    width: 15px;
+    background-color:gray;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
