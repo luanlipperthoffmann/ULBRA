@@ -46,6 +46,11 @@ background-color: lightblue
     width: 100%; 
 }
 
+.escudo{
+    width: 15px;
+    height: 15px;
+}
+
 .left{
     text-align: left;
 }
