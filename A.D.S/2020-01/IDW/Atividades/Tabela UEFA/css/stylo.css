@@ -47,8 +47,11 @@ background-color: lightblue
 }
 
 .escudo{
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-left: 5px;
+    padding-left: 2px;
 }
 
 .left{
@@ -86,36 +89,25 @@ background-color: lightblue
     text-align: center;
 }
 
-.circleTrue{
-    height: 15px;
-    width: 15px;
-    background-color:green;
-    border-radius: 50%;
-    float: left;
-    margin-left: 10px;
-}
-
-.circleFalse{
-    height: 15px;
-    width: 15px;
-    background-color:red;
-    border-radius: 50%;
-    float: left;
-    margin-left: 10px;
-    
-}
-
-.circleNone{
-    height: 15px;
-    width: 15px;
-    background-color:gray;
-    border-radius: 50%;
-    float: left;
-    margin-left: 10px;
-}
-
 .border{
     border-color: turquoise;
     border-width: 2.5px;
     border-style: solid;
+}
+
+.escudo02{
+    width: 20px;
+    height: 20px;
+    padding-left:  3px;
+}
+
+.escudo03{
+    width: 12px;
+    height: 12px;
+}
+
+.fontJogador{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bolder;
 }
