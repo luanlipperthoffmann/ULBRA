@@ -5,7 +5,7 @@
 /*CORPO DA PÁGINA*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: snow;
+    background-color: rgba(95, 92, 92, 0)158, 132, 132);
 }
 
 /*CABEÇALHO*/
@@ -51,20 +51,47 @@ section {
 }
 
     article { 
-        
+       float: left;
+       text-align: left;
+       padding-left: 120px;
+         
     }
 
-        .image{
-            
-        }
+    .imageArticle{
+        width: 500px;
+        height: 300px;
+        background-position: 0 auto; 
+    }
 
     aside {
-
-
+        float: left;
+        text-align: left;
+        padding-left: 160px;
+    }
+     
+    .imageAside{
+        width: 400px;
+        height: 150px;
+        background-position: 0 auto; 
     }
 
+    h3{
+        text-align: center;
+        float: center;
+    }
+    
+    h4{
+        text-align: center;
+    }
+
+    
     /*RODAPÉ*/
 footer {
-
-
+    background-color: rgb(10, 70, 67);
+    padding: 50px 1298px 50px 30px;
+    position: absolute;
+    bottom:-450px;
+    float: left;
+    text-align: center;
 }
+    
