@@ -7,31 +7,94 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form action="http://vinicius.pro.br/idw/receiveForm.php">
-       
-        <fieldset id="pessoal">
+    <form action="http://vinicius.pro.br/idw/receiveForm.php" method="POST">
+        <h1>FOMULÁRIO HTML</h1>
+        <fieldset>
             <legend>Dados Pessoais:</legend>
+
             <label for="name">Nome:</label>
-                <input type="text" name="nome">
-            <label for="name">Sobrenome:</label>
-                <input type="text" name="Sobrenome">
+                <input type="text" name="nome" placeholder="primeiro nome">
 
-       </fieldset>
-
-       <fieldset id="endereco">
+            <label for="lastName">&nbsp; Sobrenome:</label>
+                <input type="text" name="lastName" placeholder="sobrenome"> <br>
+            
+            <label for="brithday">Nascimento:</label>
+                <input type="date" name="brithday" > <br>
+            
+            <label for="rg">Rg:</label>
+                <input type="number" name="rg" placeholder="_ _ _ _ _ _ _ _ _ _"> <br>
+            
+            <label for="cpf">Cpf:</label>
+                <input type="number" name="cpf" placeholder="_ _ _._ _ _._ _ _-_ _">
+       </fieldset> <br>
+       <fieldset>
             <legend>Dados Endereço:</legend>
-            <label for=""></label>
-       </fieldset>
 
-       <fieldset id="login">
+            <label for="street">Rua:</label>
+                <input type="text" name="street" placeholder="rua, estrada, quadra">
+            
+            <label for="number">&nbsp;Número:</label>
+                <input type="number" name="number"> <br>
+            
+            <label for="neighborhood">Bairro:</label>
+                <input type="text" name="neighborhood" placeholder="bairro, vila, condomínio"> <br>
+            
+            <label for="state">Estado:</label>
+                <input type="hidden" name="state">
+                    <select name="estados-brasil">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select> <br>
+            
+            <label for="city">Cidade:</label>
+                    <input type="text" name="city"> <br>
+            
+            <label for="cep">Cep:</label>
+                    <input type="text" name="cep" placeholder="_ _ _ _ _-_ _ _">
+       </fieldset> <br>
+       <fieldset>
             <legend>Dados Login:</legend>
-            <label for=""></label>
-       </fieldset>
-        
 
+            <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="FerreiOgit@CodeRaiz.com"> <br>
+            
+            <label for="image">Imagem do perfil:</label>
+                <input type="file" name="image" id="imagePorfile"> <br>
+
+            <label for="password">Senha:</label>
+                <input type="password" name="pasword"> <br>
+            
+            <label for="repeatPassword">Repita sua Senha:</label>
+                <input type="password" name="repeatPassword">
+       </fieldset> <br>
+
+        <input type="reset" value="LIMPAR" name="reset" id="reset">
+        <input type="submit" value="ENVIAR" name="send"id="send" >
     </form>
-
-    
-    
 </body>
 </html>
