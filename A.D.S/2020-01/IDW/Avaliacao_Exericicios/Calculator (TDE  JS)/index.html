@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALCULADOR</title>
+    <title>CALCULADORA</title>
     
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="assets/js/script.js"></script>
@@ -15,28 +15,28 @@
                 <input type="text" name="resultado" id="">
             </div>
             <div class=" col-md-2">
-                <input type="button" value="9">
-                <input type="button" value="8">
-                <input type="button" value="7">
-                <input type="button" value="/">
+                <input type="button" class="botao" onclick="calculo(9)" value="9">
+                <input type="button" class="botao" onclick="calculo(8)" value="8">
+                <input type="button" class="botao" onclick="calculo(7)" value="7">
+                <input type="button" class="botao" onclick="calculo('/')"value="/">
             </div>
             <div class=" col-md-2">
-                <input type="button" value="6">
-                <input type="button" value="5">
-                <input type="button" value="4">
-                <input type="button" value="*">
+                <input type="button" class="botao" onclick="calculo(6)" value="6">
+                <input type="button" class="botao" onclick="calculo(5)" value="5">
+                <input type="button" class="botao" onclick="calculo(5)" value="4">
+                <input type="button" class="botao" onclick="calculo('*')" value="*">
             </div>
             <div class=" col-md-2">
-                <input type="button" value="3">
-                <input type="button" value="2">
-                <input type="button" value="1">
-                <input type="button" value="-">
+                <input type="button" class="botao" onclick="calculo(3)" value="3">
+                <input type="button" class="botao" onclick="calculo(2)" value="2">
+                <input type="button" class="botao" onclick="calculo(1)" value="1">
+                <input type="button" class="botao" onclick="calculo('-')" value="-">
             </div>
             <div class=" col-md-2">
-                <input type="button" value="C">
-                <input type="button" value=",">
-                <input type="button" value="=">
-                <input type="button" value="+">
+                <input type="button" class="botao" onclick="calculo('C')" value="C">
+                <input type="button" class="botao" onclick="calculo(',')" value=",">
+                <input type="button" class="botao" onclick="calculo('=')" value="=">
+                <input type="button" class="botao" onclick="calculo('+')" value="+">
             </div>
         </div>
    </div>
