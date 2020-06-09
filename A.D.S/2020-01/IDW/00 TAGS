@@ -1,0 +1,14 @@
+===============================================JAVA SCRIPT <<.JS>>=====================================================
+
+---ESCREVER NO CONSOLE---
+console.log("") => VAI ESCREVER NO TERMINAL O QUE ESTIVEER DENTRO DO ("")
+console.log()   => VAI CHAMAR A VARIAVEL QUE ESTIVER DENTRO DO ()
+
+---VARIAVEIS---
+const .....  => DETERMINA UMA VARIAVEL NUMERO
+const ..... " " => DETERMINA UMA VARIAVEL DO TIPO NOME
+let ...
+parseInt ..... // parseFloat.....=> Converte UMA VARIAVEL "NUMERO" PARA UN TIPO INTEIRO OU REAL
+
+
+

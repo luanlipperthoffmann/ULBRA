@@ -1,5 +1,46 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: silver;
+    background-color: skyblue;
+    
+}
+
+.calculadora{
+    border: 5px dashed green;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+    background-color: gold;
+    padding: 5%;
+    margin: 5% 20% 5% 20%;
+}
+
+textarea{
+    background-color: snow;
+    width: 70%;
+}
+
+button{
+    background-color:lightslategray;
+    color: black; 
+    font-weight: bold;
+    border-radius: 10%;
+    width: 20%;
+    height: 20%;
+    padding: 2% 2%;
+    margin-bottom: 1%;
+}
+
+.limparTela{
+    color: snow;
+    background-color: red;
+    font-weight: bolder;
+    width: 42%;
+}
+
+.resultadoTela{
+    color: snow;
+    background-color: green;
+    font-weight: bolder;
+    width: 42%;
 }
