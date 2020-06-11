@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: purple;
+    color: gold;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    top: 35%;
+    left: 35%;;
+}
+
+.display{
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.botao{
+    margin-top: 10px;
+    padding: 8px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 15px;
+}
+
+h5{
+    padding-top: 10px;
+    color: silver;
+    font-size: 20px;
+}

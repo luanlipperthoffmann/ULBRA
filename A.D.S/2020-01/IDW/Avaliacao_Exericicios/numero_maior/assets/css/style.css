@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: seagreen;
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 40%;;
+}
+
+.display{
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 15px;
+    color: darkslateblue;
+    font-weight: bolder;
+}
+
+#numMaior{
+    margin-top: 10px;
+    padding: 8px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 15px;
+}
+
+h5{
+    padding-top: 10px;
+    color: firebrick;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Número Maior</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Em uma caixa de texto o usuário pode digitar vários números separados por vírgula. 
+    Desses números digitados, ao usuário clicar em Verificar, mostre na tela o maior número.-->
+
+    <div>
+        <label for="numberBigger">DÍGITE OS NÚNEROS DESEJADOS:</label> <br>
+        <input type="text" class="display" placeholder="Separe os números por: ," id="num">
+        <input type="submit" value="verificar" id="numMaior" onclick="numMaior()"> 
+        <h5 id="resultado"></h5>
+    </div>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
