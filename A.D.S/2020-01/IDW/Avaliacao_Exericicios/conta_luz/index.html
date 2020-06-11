@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta Luz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Deseja-se calcular a conta de consumo de energia elétrica de uma casa. Para isso, elabore um formulário em HTML que 
+    leia a quantidade de Kwh consumidos e o valor unitário do Kwh.  Escreva uma função em JavaScript que faça o cálculo:
+    (valor = quantidade x valor unitário) e, caso a quantidade de Kwh ultrapasse 100, o valor do Kwh deve ser acrescido 
+    em 25%. Caso ultrapasse 200, o mesmo valor deve ser acrescido em 50%. Os valores devem ser repassados para para uma 
+    função em JavaScript conforme o exemplo anterior -->
+    <div id="figure"></div>
+
+    <form action="" method="GET">
+        <h1>CALCULE SUA LUZ</h1>
+
+        <fieldset>
+            <label for="useKwh">Insira a quantidade de Kwh consumidos:</label>
+                <input type="number"  name="kwh/consumidos" placeholder="KWH Consumidos"> <br><br>
+    
+            <label for="priceKwh">Insira o valor unitário do Kwh:</label>
+                <input type="number" name="price/kwh" placeholder="Preço do KWH"> <br><br>
+        
+        <input class="botao" type="submit" value="TOTAL DA SUA LUZ">
+        </fieldset>
+    </form>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
