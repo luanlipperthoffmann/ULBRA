@@ -28,16 +28,49 @@ h1{
    color: white;
    text-align: center;
    font-weight: bolder; 
+   margin-bottom: 15px;
 }
 
-fieldset{
+fieldset, h3{
     color: yellow;
     font-size: 20px;
     font-weight: bolder;
     border-color: aqua;
+    margin: 10px 10px;
+    float: left;
+}
+
+input{
+    float: right;
+    margin: 10px 30px;
+    padding: 3px;
+}
+
+::placeholder{
+    text-align: center;
 }
 
 .botao{
     color: white;
     background-color: green;
+    padding: 5px;
+   margin-top: 15px;
+   margin-left: 100px;
+    float: left;
+}
+
+#display{
+    padding: 5px;
+    margin: 12px 28px;
+    float: right;
+    background-color:whitesmoke;
+}
+
+p {
+    color: gray;
+    text-align: center;
+    width: 35%;
+    height: 15px;
+    text-align: center;
+    font-size: 15px;
 }
