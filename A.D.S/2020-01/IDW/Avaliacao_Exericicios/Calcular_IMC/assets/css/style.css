@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    overflow: hidden;
+    background-color:lightslategrey;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+fieldset{
+    border-color: silver;
+    border-style: ridge;
+    border-width: 10px;
+    margin-top: 5%;
+}
+
+legend, h1{
+    font-weight: bolder;
+    color: darkblue;
+    font-size: 22px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+label, input{
+    margin-left: 10px;
+}
+
+.limparTela{
+    background-color: red;
+    color: honeydew;
+    font-weight: bolder;
+    padding: 2% 5%;
+    margin: 2%;
+    margin-left: 10%;
+    float: lefth;
+}
+
+.calcular{
+    background-color: green;
+    color: honeydew;
+    font-weight: bolder;
+    padding: 2% 5%;
+    margin:  2%;
+    margin-right: 10%;
+    float: right;
+}
