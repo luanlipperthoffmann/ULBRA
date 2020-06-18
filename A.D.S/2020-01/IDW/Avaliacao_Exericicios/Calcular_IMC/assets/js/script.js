@@ -4,10 +4,11 @@ function calculoImc(){
     var imc = 0;
     var display = document.getElementById('display')
 
-    peso = parseInt(peso.value);
-    altura = parseInt(peso.value);
+    peso = parseFloat(peso.value);
+    altura = parseFloat(altura.value);
 
-    imc = peso/(altura*altura);
+    imc = (peso/(altura*altura)).toFixed(2);
+    console.log("imc" + imc);
     
     if (imc>=18.5 && imc<25){
         display.innerHTML = "Seu I.M.C é de: " + imc +  "<br> No peso ideal!";
@@ -30,7 +31,7 @@ function calculoImc(){
 }
 
 function limparTela(){
-    displayBuffer = "";
-    var tela = document.getElementById("display");
-    tela.value = displayBuffer;
+    document.getElementById('peso').value="";
+    document.getElementById('altura').value="";
+    document.getElementById('name').value="";
 }
