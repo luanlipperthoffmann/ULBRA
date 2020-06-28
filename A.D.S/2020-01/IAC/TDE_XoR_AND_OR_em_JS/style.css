@@ -1,13 +1,21 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: lightslategrey;
+    text-align: center;
+    padding-top: 10%;
 }
 
-h1{
+h1 {
     color: red;
+}
+
+label {
+    padding-top: 20px;
+}
+
+.calcular {
+    background-color: green;
+    color: red;
+    margin: 20px;
+    padding: 10px;
 }

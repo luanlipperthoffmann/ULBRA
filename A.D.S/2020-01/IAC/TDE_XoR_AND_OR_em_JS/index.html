@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TDE And, Or, XOR</title>
+    <title>TDE And, Or, Xor</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <h1>CALCULADORA:</h1>
 
-    <script type="text/javascrypt" src="scrypt.js"></script>
+<body>
+
+    <h1>CALCULADORA BOOLENA</h1>
+
+    <label for="a">Variável A</label>
+    <select name="a" id="a">
+        <option value="True">True</option>
+        <option value="False">False</option>
+    </select> <br><br>
+
+    <label for="b">Variável B</label>
+    <select name="b" id="b">
+        <option value="True">True</option>
+        <option value="False">False</option>
+    </select> <br><br>
+
+    <label for="porta">Qual Porta? </label>
+    <select name="porta" id="porta">
+        <option value="not">Not</option>
+        <option value="and">And</option>
+        <option value="or">Or</option>
+        <option value="xor">Xor</option>
+    </select> <br><br>
+
+    <input type="submit" class="calcular" ondblclick="calcular()" value="Calcular">
+    <label id="resultado"></label>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
