@@ -1,3 +1,4 @@
+
 section{
     background-color: lightcyan;
 }
@@ -18,20 +19,10 @@ img{
     height: 30%;
 }
 
-footer, img{
-    width: 20%;
-    height: 20%;
-}
-
 .zoom img:hover {
     -webkit-transform: scale(2.2);
     -moz-transform: scale(2.2);
     -o-transform: scale(2.2);
     -ms-transform: scale(2.2);
     transform: scale(2.2);
-}
-
-.icones-sociais{
-    width: 250px;
-    height: 250px;
 }
